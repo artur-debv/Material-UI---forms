@@ -8,7 +8,7 @@ const LoginFormInputs = () => {
       sx={{
         display: 'flex',
         flexDirection: 'column',
-        gap: '10px',
+        gap: '20px',
       }}
     >
       <TextField

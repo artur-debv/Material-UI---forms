@@ -17,7 +17,8 @@ const LoginForm = () => {
     >
       <Box
         sx={{
-          width: '350px',
+          width: '400px',
+          height: '250px',
           padding: '20px',
           backgroundColor: '#fff',
           borderRadius: '8px',
