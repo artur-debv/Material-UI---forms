@@ -19,18 +19,18 @@ const LoginFormInputs = () => {
         required
         sx={{
           '& .MuiInputLabel-root.Mui-focused': {
-            color: 'black', // Altera a cor do label para preto quando o campo é focado
+            color: 'black',
           },
           '& .MuiOutlinedInput-root': {
             '& fieldset': {
-              borderColor: 'grey', // Cor da borda quando não está focado
+              borderColor: 'grey',
             },
             '&.Mui-focused fieldset': {
-              borderColor: 'black', // Cor da borda quando o campo está focado (clicado)
+              borderColor: 'black',
             },
           },
           '& .MuiInputLabel-root.Mui-required::after': {
-            content: 'none', // Remove o asterisco
+            content: 'none',
           },
         }}
       />
@@ -43,18 +43,15 @@ const LoginFormInputs = () => {
         required
         sx={{
           '& .MuiInputLabel-root.Mui-focused': {
-            color: 'black', // Altera a cor do label para preto quando o campo é focado
+            color: 'black',
           },
           '& .MuiOutlinedInput-root': {
             '& fieldset': {
-              borderColor: 'grey', // Cor da borda quando não está focado
+              borderColor: 'grey',
             },
             '&.Mui-focused fieldset': {
-              borderColor: 'black', // Cor da borda quando o campo está focado (clicado)
+              borderColor: 'black',
             },
-          },
-          '& .MuiInputLabel-root.Mui-required::after': {
-            content: 'none', // Remove o asterisco
           },
         }}
       />
