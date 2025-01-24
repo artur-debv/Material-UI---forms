@@ -1,12 +1,12 @@
 
-import Login from "./components/Login"
+import { LoginForm } from "./components/loginForm"
 
 
 function App() {
-  
+
 
   return (
-   <Login />
+    <LoginForm />
   )
 }
 
